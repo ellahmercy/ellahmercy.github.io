@@ -9,13 +9,13 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      background: linear-gradient(135deg, #fbeae7, #f5d0cb);
       color: #333;
       text-align: center;
     }
 
     header {
-      background-color: #4a90e2;
+      background-color: #800000; /* Maroon */
       color: #fff;
       padding: 20px 10px;
     }
@@ -59,23 +59,31 @@
     .project-card:hover {
       transform: translateY(-10px);
       box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+      border-top: 4px solid #800000; /* Maroon border on hover */
+    }
+
+    .project-card h2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
     }
 
     .project-card a {
       text-decoration: none;
-      color: #4a90e2;
+      color: #4a90e2; /* Blue links */
       font-weight: bold;
       display: inline-block;
       margin-top: 10px;
     }
 
     .project-card a:hover {
-      color: #0056b3;
+      color: #0056b3; /* Darker blue on hover */
     }
 
     footer {
       margin-top: 40px;
-      background-color: #4a90e2;
+      background-color: #800000; /* Maroon */
       color: #fff;
       padding: 10px;
     }
@@ -96,14 +104,14 @@
     <div class="project-links">
       <!-- Attendance App -->
       <div class="project-card">
-        <h2>Attendance App</h2>
+        <h2>📋 Attendance App</h2>
         <p>A simple and efficient attendance management application.</p>
         <a href="https://ellahmercy.github.io/attendance_app" target="_blank">Preview App</a>
       </div>
       
       <!-- Quiz App -->
       <div class="project-card">
-        <h2>Quiz App</h2>
+        <h2>❓ Quiz App</h2>
         <p>Test your knowledge with this interactive quiz application!</p>
         <a href="https://ellahmercy.github.io/quizz_app" target="_blank">Preview App</a>
       </div>
